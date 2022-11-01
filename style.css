@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: arial,sans-serif;
 padding: 0;
 margin: 0;
 overflow: hidden;
@@ -29,7 +29,7 @@ font-size: 25px;
     width: 65%;
     height: 600px;
     border-radius: 90px;
-    border: 30px solid whitesmoke;
+    border: 15px solid whitesmoke;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
