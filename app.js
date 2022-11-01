@@ -14,7 +14,7 @@ const stopwatch = ()=> {
     let seconds = counter % 60;
     
     
-    textArea.textContent = `${hours} : ${mins} : ${seconds}`;
+    textArea.textContent = `${hours} : ${mins} : ${seconds} , ${milliseconds}`;
 };
 const startStopwatch = ()=>{
     interval = setInterval(stopwatch, 1000);
@@ -26,7 +26,7 @@ const startStopwatch = ()=>{
     const resetStopwatch = ()=> {
         stopStopwatch();
         counter = 0;
-        textArea.textContent = `00 : 00 : 00`;
+        textArea.textContent = `00 : 00 : 00 , 000`;
     };
 
     startBtn.addEventListener('click',startStopwatch);
