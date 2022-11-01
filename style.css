@@ -105,4 +105,12 @@ span {
 
 }
 
+.adsbygoogle {
+    margin: auto;
+    align-items: left;
+    padding: auto;
+    height: 600px;
+    width: 200px;
+    display:inline-block;
 
+}
