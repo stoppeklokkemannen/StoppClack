@@ -43,6 +43,9 @@ h1 {
     color: rgb(255, 254, 254);
     letter-spacing: 2px;
 }
+h3 {
+    color: #FFFFFF;
+}
 .btns {
     display: flex;
     align-items: center;
