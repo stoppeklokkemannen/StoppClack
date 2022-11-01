@@ -58,6 +58,9 @@ span {
     align-items: center;
     justify-content: space-between;
     column-gap: 30px;
+   
+   
+
 }
 .btn {
     padding: 40px 60px;
@@ -65,7 +68,11 @@ span {
     border-radius: 25px;
     font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 600
+    font-weight: 600;
+   
+    
+   
+    
 }
 
 @media (hover:hover) {
