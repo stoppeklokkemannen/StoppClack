@@ -26,7 +26,6 @@ body{
     justify-content: center;
 }
 .stopwacth-container {
-    
     width: 65%;
     height: 600px;
     border-radius: 90px;
@@ -81,4 +80,9 @@ h3 {
     100% {
         background-position: 0% 50%;
     }
+}
+
+.Logo {
+    align-items: center;
+    
 }
