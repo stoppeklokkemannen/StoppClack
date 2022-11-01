@@ -18,25 +18,26 @@ body{
 }
 
 .stopwatch-section {
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: auto;
-    margin-top: auto;
+    padding-top: 0%;
+    margin-top: 0%;
+    border: none;
 }
 .stopwacth-container {
     width: 65%;
     height: 600px;
-    border-radius: 90px;
-    border: 15px solid whitesmoke;
+    border-radius:90px;
+    border: 0px solid whitesmoke;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
     align-items: center;
     justify-content: center; 
-    --max-width: var(var(--max-width))
+    
 }
 h1 {
     margin: 0;
@@ -93,4 +94,6 @@ span {
     margin-right: auto;
     margin-bottom: none;
     padding-bottom: 0%;
+    text-align: center;
+
 }
