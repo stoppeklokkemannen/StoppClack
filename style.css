@@ -47,6 +47,10 @@ h3 {
     color: #FFFFFF;
     font-size: 2rem;
 }
+span {
+    color: #FFFFFF;
+    font-size: 2rem;
+}
 .btns {
     display: flex;
     align-items: center;
