@@ -14,7 +14,7 @@ const stopwatch = ()=> {
     let seconds = counter % 60;
     
     
-    textArea.textContent = `${hours} : ${mins} : ${seconds} `;
+    textArea.textContent = `${hours} : ${mins} : ${seconds}`;
 };
 const startStopwatch = ()=>{
     interval = setInterval(stopwatch, 1000);
